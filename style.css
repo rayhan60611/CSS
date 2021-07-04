@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color:#edf0f5 ;
+    font-family: Helvetica, Arial, sans-serif;
+
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* grid-template-rows: 180px 200px; */
+}
+
+.left{
+
+    text-align: center ;
+    /* background-image: url("/images/1.jpg"); */
+}
+/* 
+.image{
+    
+    
+} */
