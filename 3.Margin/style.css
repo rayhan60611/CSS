@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color:#edf0f5 ; */
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+.main{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(200, 255, 0);
+    position: relative;
+    margin: auto;
+}
+
+
+.inside{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(53, 34, 136);
+    position: absolute;
+    /* margin-top: 20px;
+    margin-left:20px;
+    margin-right: 20px;
+    margin-bottom: 20px; */
+
+    /* margin: 20px 50px 30px 80px; */
+
+    /* margin: auto; */
+    margin: 150px 160px;
+
+    
+
+
+
+
+
+    
+
+    
+
+
+    
+}
+
