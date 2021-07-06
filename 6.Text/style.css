@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color:#edf0f5 ; */
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h1{
+    text-align: center;
+
+}
+
+
+   /* Text Property */
+p{
+    text-indent: 50px;
+    text-align: justify;
+    color: crimson;
+    line-height: 5;
+    font-size: 16px;
+
+}
+
+a{
+    text-decoration: none;
+    color: rgb(139, 130, 0);
+}
+h2{
+    text-decoration: underline;
+    text-decoration: overline;
+    text-decoration: line-through;
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    text-shadow: 3px 3px red;
+}
+
