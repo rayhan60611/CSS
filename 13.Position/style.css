@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color:#edf0f5 ; */
+    font-family: Helvetica, Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    margin: 25px;
+
+}
+
+.div1{
+ width: 100px;
+ height: 100px;
+ background: crimson;
+ position: absolute;
+ top :0;
+ 
+}
+
+.div2{
+    width: 100px;
+    height: 100px;
+    background: crimson;
+    position: absolute;
+    top :0;
+    right:0;
+   }
+
+.div3{
+    width: 100px;
+    height: 100px;
+    background: crimson;
+    position: absolute;
+    bottom :0;
+    left:0;
+   }
+
+.div4{
+    width: 100px;
+    height: 100px;
+    background: crimson;
+    position: absolute;
+    bottom :0;
+    right:0;
+   }
+
+
+
+.div5{
+    width: 100px;
+    height: 100px;
+    background: crimson;
+    position: absolute;
+    top :0;
+    left:0;
+    right:0;
+    margin:auto;
+   }
+
+
+.div6{
+    width: 100px;
+    height: 100px;
+    background: crimson;
+    position: absolute;
+    bottom :0;
+    left:0;
+    right:0;
+    margin:auto;
+   }
+
+
+.div7{
+    width: 100px;
+    height: 100px;
+    background: crimson;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left:0;
+    margin:auto;
+   }
+
+
+
+   .div8{
+    width: 100px;
+    height: 100px;
+    background: crimson;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    right:0;
+    margin:auto;
+   }
+
+
+   .div9{
+    width: 100px;
+    height: 100px;
+    background: crimson;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right:0;
+    margin:auto;
+   }
+
+/* Bangladeshi flag */
+   .div10{
+    width: 200px;
+    height: 110px;
+    background: green;
+    position: relative;
+    top: 140px;
+   }
+
+   .div11{
+    width: 60px;
+    height: 60px;
+    background: red;
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 50%;
+   }
