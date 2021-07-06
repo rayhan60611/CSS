@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color:#edf0f5 ; */
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h1{
+    text-align: center;
+    margin: 25px;
+
+}
+
+.div1{
+    border :3px groove red;
+    width: 300px;
+    height: 200px;
+    /* overflow: visible;  */
+     /* overflow: hidden; */
+    /* overflow: scroll; */
+    overflow: auto; 
+}
+
+.div2{
+    width: 300px;
+    height: 200px;
+    margin-top: 20px;
+    border: 3px solid green;
+    overflow: hidden;
+ 
+}
