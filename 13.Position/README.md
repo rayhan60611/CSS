@@ -1,6 +1,6 @@
  **Output:**
 
-![skf1](https://user-images.githubusercontent.com/41693796/115128538-4865b000-a000-11eb-8e43-13b96514bdb3.JPG)
+![skf1](https://github.com/rayhan60611/CSS/blob/master/13.Position/Output.png)
 
 
 *Thanks for visiting*
