@@ -25,6 +25,6 @@ outline-color: crimson;
 outline-style: groove;
 outline-offset: 8px;
 
-outline: 10px dotted green;
+outline: 10px dotted rgb(13, 0, 128);
 }
 
