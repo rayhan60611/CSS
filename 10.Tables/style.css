@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color:#edf0f5 ; */
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h1{
+    text-align: center;
+    margin: 25px;
+
+}
+table{
+    width: 80%;
+    border-collapse: collapse;
+}
+
+table, td ,th {
+    border: 2px groove crimson;
+
+}
+
+td , th{
+    padding: 10px;
+    text-align: center;
+}
