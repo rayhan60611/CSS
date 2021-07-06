@@ -12,4 +12,11 @@ h1{
 }
 
 
+ul{
+    margin: 80px;
+    list-style-type: lower-roman;
+    /* list-style-image: url(/images/facebook.svg); */
+    list-style-position: inside;
+    list-style: square inside url(/images/facebook.svg);
 
+}
