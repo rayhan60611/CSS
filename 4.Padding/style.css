@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color:#edf0f5 ; */
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+.main{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(31, 5, 146);
+    position: relative;
+    margin: auto;
+    padding: 20px;
+}
+
+
+p{
+ 
+    color: rgb(255, 255, 255);
+    background-color: crimson;
+    /* padding:  50px; */
+    padding: 10px 20px 30px 40px;
+}
+
