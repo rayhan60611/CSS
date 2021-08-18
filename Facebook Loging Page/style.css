@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #edf0f5;
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  /* flex-wrap: wrap; */
+  border: 2px solid red;
+}
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+  flex: 50%;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(38, 0, 255);
+  height: 80vh;
+
+
+}
+
+.left-side img {
+  width: 301px;
+  height: auto;
+}
+
+.left-side h2 {
+  margin: -5px 70px;
+  font-size: 24px;
+  line-height: 2rem;
+  width: auto;
+  /* font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif; */
+    font-weight: normal;
+}
+
+
+.right-side{
+    display: flex;
+    flex-direction: column;
+    flex: 50%;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(38, 0, 255);
+    height: 80vh;
+    /* background-color: rgb(255, 0, 0); */
+
+    /* margin: 40px 0 0;
+    padding: 20px 0 28px; */
+}
+
+.rightInnerDiv{
+    width: 396px;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 360px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(255, 238, 0);
+    height: 80vh;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+.right-side input{
+    width: 85%;
+    padding: 15px ;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    border:.5px solid rgb(170, 169, 169);
+    font-size: 18px;
+    outline: none;
+    /* color: rgb(255, 36, 36); */
+    
+}
+
+.right-side input:focus{
+
+    border:.5px solid #1877f2;  
+    
+}
+
+.right-side input:focus::placeholder {
+
+    color: rgba(151, 150, 150,.5);  
+    
+}
+
+.right-side input::placeholder{
+
+   color: rgb(151, 150, 150);
+    
+}
+
+
+.right-side a:nth-child(1){
+
+    /* padding: 0  16px; */
+    width: 93%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    font-size: 18px;
+    /* outline: none; */
+    border: none;
+    background-color: #1877f2;
+    cursor: pointer;
+     
+ }
+
+ .right-side a:hover{
+
+
+    background-color: #1877f2;
+     
+ }
