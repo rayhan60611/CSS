@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: silver;
+}
+
+h1{
+    position: absolute;
+    top: 75%;
+    left: 43%;
+    transform: translate(-55% , -10%);
+    animation: sample1 2s ease-in-out infinite alternate;
+
+}
+
+.animation-div{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    box-shadow: 0px 0px 5px 3px rgba(99, 98, 98,.8);
+    text-align: center;
+
+    /* animation-name: sample;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+
+
+
+/*   animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation: sample 2s        ease-in-out             infinite    alternate;
+}
+
+@keyframes sample {
+    0%{
+        border-radius: 0%;
+        background-color: indigo;
+        
+    }
+
+    25%{
+        border-radius: 10%;
+        background-color: greenyellow;
+    }
+    50%{
+        border-radius: 25%;
+        background-color: rgb(109, 47, 255);
+        
+    }
+    75%{
+        border-radius: 35%;
+        background-color: rgb(47, 213, 255);
+    }
+    100%{
+        border-radius: 50%;
+        background-color: rgb(255, 47, 92);
+    }
+}
+
+    /* For H1 animation */
+
+    @keyframes sample1 {
+        0%{
+            transform: rotate(0deg) scale(1.2);
+            color: indigo;
+            
+        }
+    
+        25%{
+             transform: rotate(0deg), scale(1.2);
+            /* transform: rotate(90deg); */
+            color: greenyellow;
+        }
+        50%{
+            transform: rotate(180deg) scale(1.2);
+            color: rgb(109, 47, 255);
+            
+        }
+        75%{
+            transform: rotate(270deg) scale(1.5);
+            color: rgb(47, 213, 255);
+        }
+        100%{
+            transform: rotate(360deg) scale(1.9);
+            color: rgb(255, 47, 92);
+        }
+    }
