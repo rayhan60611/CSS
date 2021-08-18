@@ -112,7 +112,7 @@ body {
 }
 
 .login-a:hover {
-  background-color: rgba(27, 119, 240, 0.945);
+  background-color: #166fe5;
 }
 
 .forgottenPassword {
@@ -147,7 +147,8 @@ hr {
   margin-top: 10px;
 }
 .create-new-account-a:hover {
-  background-color: rgba(66, 183, 42, 0.8);
+  background-color: #36a420;
+    border-color: #36a420;
 }
 
 .footer-p {
