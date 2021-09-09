@@ -1,0 +1,51 @@
+body{
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.topbarDiv{
+    min-height: 7vh;
+    box-shadow: 0 0 1px black;
+    box-sizing: border-box;
+    /* color: rgb(0, 0, 0) !important; */
+    /* font-size: 1.7rem; */
+}
+
+
+.topbarDiv a{
+    color: #3e444a !important;
+    transition: all .3s ease-in-out;
+
+   
+}
+
+.topbarDiv a:hover{
+    color: #e01212 !important;
+}
+.register-li{
+    position: relative; 
+}
+
+.register-li::after{
+    content:""; 
+    background: rgba(83, 83, 83, 0.377); 
+    position: absolute; 
+    bottom: 11px; 
+    left: 90px; 
+    height: 40%; 
+    width: 1px;
+
+}
+
+.topBar-Dropdown-a:hover{
+    /* background-color: rgb(255, 255, 255) !important; */
+    /* border-style: none; */
+    
+    border-bottom: 1px solid #e01212;
+    border-width: 3px ;
+    
+}
+
+
+.topBar-right-div a{
+    font-size: .9rem !important;
+}
